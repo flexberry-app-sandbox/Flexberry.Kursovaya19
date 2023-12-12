@@ -31,6 +31,9 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ПереченьУслугL', 'i-i-s-kursovaya19-перечень-услуг', {
-    наименование: attr('Наименование', { index: 0 })
+    наименование: attr('Наименование', { index: 0 }),
+    затрВремя: belongsTo('i-i-s-kursovaya19-затр-время', '', {
+      время: attr('', { index: 1 })
+    }, { index: -1, hidden: true })
   });
 };

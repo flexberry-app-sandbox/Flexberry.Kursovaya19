@@ -1,5 +1,14 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": "переченьУслуг",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ОказКонсулт.ПереченьУслуг",
+      "projection": "ПереченьУслугL",
+      "detailModelName": "i-i-s-kursovaya19-оказ-консульт"
+    }
+  ],
   "external": false,
   "caption": "Расчет ост врем",
   "name": "IISKursovaya19РасчетОстВремE",

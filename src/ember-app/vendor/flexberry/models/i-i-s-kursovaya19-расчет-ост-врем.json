@@ -49,19 +49,19 @@
       "attrs": [
         {
           "name": "было",
-          "caption": "",
+          "caption": "Начальный остаток",
           "hidden": false,
           "index": 0
         },
         {
           "name": "доступно",
-          "caption": "",
+          "caption": "Доступно",
           "hidden": false,
           "index": 1
         },
         {
           "name": "использовано",
-          "caption": "",
+          "caption": "Израсходовано",
           "hidden": false,
           "index": 2
         }
@@ -83,19 +83,19 @@
       "attrs": [
         {
           "name": "было",
-          "caption": "",
+          "caption": "Начальный остаток",
           "hidden": false,
           "index": 0
         },
         {
           "name": "доступно",
-          "caption": "",
+          "caption": "Доступно",
           "hidden": false,
           "index": 1
         },
         {
           "name": "использовано",
-          "caption": "",
+          "caption": "Израсходовано",
           "hidden": false,
           "index": 2
         }

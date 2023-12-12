@@ -30,15 +30,15 @@ namespace IIS.Kursovaya19
     [Caption("Расчет оставшегося времени")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("РасчетОстВремE", new string[] {
-            "Было",
-            "Доступно",
-            "Использовано"})]
+            "Было as \'Начальный остаток\'",
+            "Доступно as \'Доступно\'",
+            "Использовано as \'Израсходовано\'"})]
     [AssociatedDetailViewAttribute("РасчетОстВремE", "ОказКонсулт", "ОказКонсультE", false, "", "", true, new string[] {
             ""})]
     [View("РасчетОстВремL", new string[] {
-            "Было",
-            "Доступно",
-            "Использовано"})]
+            "Было as \'Начальный остаток\'",
+            "Доступно as \'Доступно\'",
+            "Использовано as \'Израсходовано\'"})]
     public class РасчетОстВрем : ICSSoft.STORMNET.DataObject
     {
         

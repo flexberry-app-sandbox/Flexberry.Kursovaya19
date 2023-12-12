@@ -52,7 +52,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЗатрВремя",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "время",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "затрВремя",
+          "relatedTo": "i-i-s-kursovaya19-затр-время",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

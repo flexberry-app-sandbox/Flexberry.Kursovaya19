@@ -29,7 +29,8 @@ namespace IIS.Kursovaya19
     [View("ПереченьУслугE", new string[] {
             "Наименование as \'Наименование\'"})]
     [View("ПереченьУслугL", new string[] {
-            "Наименование as \'Наименование\'"})]
+            "Наименование as \'Наименование\'",
+            "ЗатрВремя.Время"})]
     public class ПереченьУслуг : ICSSoft.STORMNET.DataObject
     {
         

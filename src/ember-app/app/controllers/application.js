@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya19-клиент-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-клиент-l.title'),
-            icon: 'address card',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-расчет-ост-врем-l.title'),
-            icon: 'file',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-перечень-услуг-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-перечень-услуг-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-перечень-услуг-l.title'),
-            icon: 'tasks',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-дир-отд-по-раб-с-кл-l',
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya19-договор-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-договор-l.title'),
-            icon: 'archive',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-затр-время-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-затр-время-l.title'),
-            icon: 'paperclip',
+            icon: 'building',
             children: null
           }]
         }

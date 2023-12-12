@@ -44,19 +44,29 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('РасчетОстВремE', 'i-i-s-kursovaya19-расчет-ост-врем', {
-    было: attr('', { index: 0 }),
-    доступно: attr('', { index: 1 }),
-    использовано: attr('', { index: 2 }),
+    было: attr('Начальный остаток', { index: 0 }),
+    доступно: attr('Доступно', { index: 1 }),
+    использовано: attr('Израсходовано', { index: 2 }),
     оказКонсулт: hasMany('i-i-s-kursovaya19-оказ-консульт', '', {
       дата: attr('Дата', { index: 0 }),
-      времяКонсульт: attr('Время консульт', { index: 1 }),
-      предостУслуга: attr('Предост услуга', { index: 2 })
+      номер: attr('', { index: 1 }),
+      времяКонсульт: attr('Время консульт', { index: 2 }),
+      предостУслуга: attr('Предост услуга', { index: 3 }),
+      договор: belongsTo('i-i-s-kursovaya19-договор', 'Номер договора', {
+        номер: attr('Номер договора', { index: 4 })
+      }, { index: -1, hidden: true }),
+      переченьУслуг: belongsTo('i-i-s-kursovaya19-перечень-услуг', '', {
+        наименование: attr('', { index: 6 }),
+        затрВремя: belongsTo('i-i-s-kursovaya19-затр-время', '', {
+          время: attr('', { index: 7 })
+        }, { index: -1, hidden: true })
+      }, { index: 5 })
     })
   });
 
   modelClass.defineProjection('РасчетОстВремL', 'i-i-s-kursovaya19-расчет-ост-врем', {
-    было: attr('', { index: 0 }),
-    доступно: attr('', { index: 1 }),
-    использовано: attr('', { index: 2 })
+    было: attr('Начальный остаток', { index: 0 }),
+    доступно: attr('Доступно', { index: 1 }),
+    использовано: attr('Израсходовано', { index: 2 })
   });
 };
