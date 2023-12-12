@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Kursovaya19",
+  "applicationTitle": "Kursovaya19",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya19",
+      "caption": "Kursovaya19",
+      "title": "Kursovaya19",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya19-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya19-расчет-ост-врем-l",
+          "menuName": null,
+          "caption": "Расчет ост врем",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya19-перечень-услуг-l",
+          "menuName": null,
+          "caption": "Перечень услуг",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya19-дир-отд-по-раб-с-кл-l",
+          "menuName": null,
+          "caption": "Дир отд по раб с кл",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya19-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya19-затр-время-l",
+          "menuName": null,
+          "caption": "Затр время",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

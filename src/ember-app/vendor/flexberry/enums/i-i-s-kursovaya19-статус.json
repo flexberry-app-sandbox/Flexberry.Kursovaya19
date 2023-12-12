@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Kursovaya19",
+  "className": "Статус",
+  "enumObjects": {
+    "Расторжен": "Расторжен",
+    "Заключен": "Заключен"
+  }
+}

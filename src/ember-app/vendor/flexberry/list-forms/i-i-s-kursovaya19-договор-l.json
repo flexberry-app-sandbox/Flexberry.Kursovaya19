@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya19-договор-e",
+  "editForm": "i-i-s-kursovaya19-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IISKursovaya19ДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya19-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}
