@@ -86,22 +86,6 @@
     {{flexberry-validationmessage error=(v-get validationModel "статус" "message")}}
   </div>
   <div class="field">
-    <label>{{t "forms.i-i-s-kursovaya19-договор-e.дирОтдПоРабСКл-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.дирОтдПоРабСКл
-      relationName="дирОтдПоРабСКл"
-      projection="ДирОтдПоРабСКлL"
-      title=(t "forms.i-i-s-kursovaya19-договор-e.дирОтдПоРабСКл-caption")
-      readonly=readonly
-      componentName="дирОтдПоРабСКлLookup"
-      class=(if (v-get validationModel "дирОтдПоРабСКл" "isInvalid") "error")
-      data-test-i-i-s-kursovaya19-договор-e-дирОтдПоРабСКл=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "дирОтдПоРабСКл" "message")}}
-  </div>
-  <div class="field">
     {{flexberry-field
       readonly=true
       value=model.дирОтдПоРабСКл.фамилия
@@ -130,22 +114,6 @@
       data-test-i-i-s-kursovaya19-договор-e-дирОтдПоРабСКл-отчество=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel.дирОтдПоРабСКл "отчество" "message")}}
-  </div>
-  <div class="field">
-    <label>{{t "forms.i-i-s-kursovaya19-договор-e.клиент-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.клиент
-      relationName="клиент"
-      projection="КлиентL"
-      title=(t "forms.i-i-s-kursovaya19-договор-e.клиент-caption")
-      readonly=readonly
-      componentName="клиентLookup"
-      class=(if (v-get validationModel "клиент" "isInvalid") "error")
-      data-test-i-i-s-kursovaya19-договор-e-клиент=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "клиент" "message")}}
   </div>
   <div class="field">
     {{flexberry-field

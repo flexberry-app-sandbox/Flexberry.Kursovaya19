@@ -132,22 +132,22 @@
               "name": "фамилия",
               "caption": "",
               "hidden": false,
-              "index": 7
+              "index": 6
             },
             {
               "name": "имя",
               "caption": "",
               "hidden": false,
-              "index": 8
+              "index": 7
             },
             {
               "name": "отчество",
               "caption": "",
               "hidden": false,
-              "index": 9
+              "index": 8
             }
           ],
-          "index": 6,
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "дирОтдПоРабСКл",
@@ -165,22 +165,22 @@
               "name": "фамилия",
               "caption": "",
               "hidden": false,
-              "index": 11
+              "index": 9
             },
             {
               "name": "имя",
               "caption": "",
               "hidden": false,
-              "index": 12
+              "index": 10
             },
             {
               "name": "отчество",
               "caption": "",
               "hidden": false,
-              "index": 13
+              "index": 11
             }
           ],
-          "index": 10,
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "клиент",
@@ -243,22 +243,22 @@
               "name": "фамилия",
               "caption": "",
               "hidden": false,
-              "index": 7
+              "index": 6
             },
             {
               "name": "имя",
               "caption": "",
               "hidden": false,
-              "index": 8
+              "index": 7
             },
             {
               "name": "отчество",
               "caption": "",
               "hidden": false,
-              "index": 9
+              "index": 8
             }
           ],
-          "index": 6,
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "дирОтдПоРабСКл",
@@ -276,22 +276,22 @@
               "name": "фамилия",
               "caption": "",
               "hidden": false,
-              "index": 11
+              "index": 9
             },
             {
               "name": "имя",
               "caption": "",
               "hidden": false,
-              "index": 12
+              "index": 10
             },
             {
               "name": "отчество",
               "caption": "",
               "hidden": false,
-              "index": 13
+              "index": 11
             }
           ],
-          "index": 10,
+          "index": -1,
           "type": "default",
           "caption": "",
           "name": "клиент",

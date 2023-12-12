@@ -1,22 +1,5 @@
 ﻿{
-  "propertyLookup": [
-    {
-      "master": null,
-      "displayAttributeName": null,
-      "required": false,
-      "relationName": "ДирОтдПоРабСКл",
-      "projection": "ДирОтдПоРабСКлL",
-      "detailModelName": null
-    },
-    {
-      "master": null,
-      "displayAttributeName": null,
-      "required": false,
-      "relationName": "Клиент",
-      "projection": "КлиентL",
-      "detailModelName": null
-    }
-  ],
+  "propertyLookup": [],
   "external": false,
   "caption": "Договор",
   "name": "IISKursovaya19ДоговорE",

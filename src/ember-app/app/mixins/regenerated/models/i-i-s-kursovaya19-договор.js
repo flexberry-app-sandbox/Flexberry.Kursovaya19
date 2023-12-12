@@ -81,15 +81,15 @@ export let defineProjections = function (modelClass) {
     длительность: attr('Длительность', { index: 4 }),
     статус: attr('Статус', { index: 5 }),
     дирОтдПоРабСКл: belongsTo('i-i-s-kursovaya19-дир-отд-по-раб-с-кл', '', {
-      фамилия: attr('', { index: 7 }),
-      имя: attr('', { index: 8 }),
-      отчество: attr('', { index: 9 })
-    }, { index: 6 }),
+      фамилия: attr('', { index: 6 }),
+      имя: attr('', { index: 7 }),
+      отчество: attr('', { index: 8 })
+    }, { index: -1, hidden: true }),
     клиент: belongsTo('i-i-s-kursovaya19-клиент', '', {
-      фамилия: attr('', { index: 11 }),
-      имя: attr('', { index: 12 }),
-      отчество: attr('', { index: 13 })
-    }, { index: 10 })
+      фамилия: attr('', { index: 9 }),
+      имя: attr('', { index: 10 }),
+      отчество: attr('', { index: 11 })
+    }, { index: -1, hidden: true })
   });
 
   modelClass.defineProjection('ДоговорL', 'i-i-s-kursovaya19-договор', {
@@ -100,15 +100,15 @@ export let defineProjections = function (modelClass) {
     длительность: attr('Длительность', { index: 4 }),
     статус: attr('Статус', { index: 5 }),
     дирОтдПоРабСКл: belongsTo('i-i-s-kursovaya19-дир-отд-по-раб-с-кл', '', {
-      фамилия: attr('', { index: 7 }),
-      имя: attr('', { index: 8 }),
-      отчество: attr('', { index: 9 })
-    }, { index: 6 }),
+      фамилия: attr('', { index: 6 }),
+      имя: attr('', { index: 7 }),
+      отчество: attr('', { index: 8 })
+    }, { index: -1, hidden: true }),
     клиент: belongsTo('i-i-s-kursovaya19-клиент', '', {
-      фамилия: attr('', { index: 11 }),
-      имя: attr('', { index: 12 }),
-      отчество: attr('', { index: 13 })
-    }, { index: 10 })
+      фамилия: attr('', { index: 9 }),
+      имя: attr('', { index: 10 }),
+      отчество: attr('', { index: 11 })
+    }, { index: -1, hidden: true })
   });
 
   modelClass.defineProjection('ЗаключДоговораE', 'i-i-s-kursovaya19-договор', {
