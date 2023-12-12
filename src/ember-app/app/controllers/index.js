@@ -22,37 +22,36 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya19-клиент-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-клиент-l.title'),
-            icon: 'chart line',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-расчет-ост-врем-l.title'),
-            icon: 'calendar',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-перечень-услуг-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-перечень-услуг-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-перечень-услуг-l.title'),
-            icon: 'file',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-договор-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-договор-l.title'),
-            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya19-затр-время-l',
             caption: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya19.i-i-s-kursovaya19-затр-время-l.title'),
-            icon: 'building',
+            icon: 'briefcase',
             children: null
           }]
         }
